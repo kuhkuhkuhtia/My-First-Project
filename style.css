@@ -36,10 +36,15 @@ li {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .text--purple {
   color: #6030b1;
+}
+
+section:nth-child(even) {
+    background-color: #f8f8f8;
 }
 
 /* NAVIGATION BAR */
@@ -52,6 +57,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 12px;
 }
 
 .nav__link--list {
@@ -127,7 +133,6 @@ nav {
 .about-me__info--para {
     font-size: 20px;
     margin-bottom: 28px;
-    max-width: 725px;
 }
 
 .about-me__link {
@@ -141,8 +146,18 @@ nav {
     flex: 1;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .about-me__img {
     width: 100%;
+    margin: 50px auto;
+    display: block;
 }
+
+/* FOR TABLET AND PHONE */
+/* @media (max-width: 768px) {
+    .about-me__info {
+        flex-direction: column;
+    }
+} */
