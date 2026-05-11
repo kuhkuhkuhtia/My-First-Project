@@ -299,12 +299,12 @@ nav {
 .project__description {
     position: absolute;
     top: 50%;
-    left: 90px;
-    transform: translateY(100%);
-    min-width: 550px;
+    transform: translate(-50%, -50%);
     z-index: 3;
     opacity: 0;
     transition: transform 450ms, opacity 300ms;
+    text-align: center;
+
 }
 
 .project__description--title {
@@ -322,7 +322,16 @@ nav {
 
 .project__description--links {
     display: flex;
-    gap: 16px;
+    justify-content: center;
+}
+
+.project__description--title {
+    line-height: 1;
+}
+
+.project__description--sub-title {
+    text-align: center;
+    margin: 12px 0;
 }
 
 .project__description--title, 
@@ -409,7 +418,7 @@ footer {
     }
 
     .project__description {
-        padding-right: 30px
+        padding-right: 30px;
         left: 30px;
     }
 } 
