@@ -222,6 +222,7 @@ nav {
     align-items: center;
     justify-content: center;
     margin-top: 60px;
+    margin-bottom: 80px;
 }
 
 .about-me__img {
@@ -292,6 +293,8 @@ nav {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .language__name {
@@ -306,6 +309,11 @@ nav {
 .language:hover .language__name {
     transform: scale(1);
     opacity: 1;
+}
+
+.container {
+    padding-top: 60px;
+    padding-bottom: 6px;
 }
 
 /* PROJECTS (will insert my own later in html) */
