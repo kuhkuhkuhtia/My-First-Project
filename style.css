@@ -221,6 +221,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .about-me__img {
